@@ -9,6 +9,6 @@ var myFirstObj = {
   },
 };
 
-function getUser(name) {
-    return myFirstObj[name]
+function getUserAge(name) {
+    return myFirstObj[name].age;
 }
